@@ -11,9 +11,9 @@ Este script en Bash automatiza la descarga de vídeos de YouTube, extrayendo el 
 ## 🚀 Instalación
 
 ```bash
-git clone https://github.com/tu_usuario/yt-extract-audio-h265.git
+git clone https://github.com/Vikolow/yt-extract-audio-h265.git
 cd yt-extract-audio-h265
-chmod +x yt_audio_video.sh
+chmod +x yt-extract-audio-h265.sh
 ```
 
 ## 🧪 Uso
