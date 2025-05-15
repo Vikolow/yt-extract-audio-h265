@@ -31,10 +31,10 @@ chmod +x yt-extract-audio-h265.sh
 
     - NOMBRE_noaudio.mp4: Vídeo sin audio, comprimido en H.265.
 
-📝 Notas
+## 📝 Notas
 El nombre de los archivos se genera automáticamente a partir del título del vídeo.
 
 Si yt-dlp o ffmpeg no está instalado, el script lo descargará automáticamente (requiere permisos sudo).
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
