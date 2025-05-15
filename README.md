@@ -4,7 +4,7 @@ Este script en Bash automatiza la descarga de vídeos de YouTube, extrayendo el 
 
 ## ✅ Requisitos
 
-- Linux (Debian/Ubuntu recomendado)
+- Linux 
 - `ffmpeg` (se instala automáticamente)
 - `yt-dlp` (se instala automáticamente en `/usr/local/bin`, requiere `sudo`)
 
@@ -14,27 +14,27 @@ Este script en Bash automatiza la descarga de vídeos de YouTube, extrayendo el 
 git clone https://github.com/tu_usuario/yt-extract-audio-h265.git
 cd yt-extract-audio-h265
 chmod +x yt_audio_video.sh
-🧪 Uso
-bash
-Copiar
-Editar
-./yt_audio_video.sh
-Introduce la URL del vídeo de YouTube cuando se solicite.
+```
 
-Elige el formato del vídeo entre los que se mostrarán.
+## 🧪 Uso
+```bash
+./yt-extract-audio-h265.sh
+```
 
-El script generará en el directorio actual:
+- Introduce la URL del vídeo de YouTube cuando se solicite.
 
-NOMBRE_audio.mp3: Solo el audio extraído.
+- Elige el formato del vídeo entre los que se mostrarán.
 
-NOMBRE_noaudio.mp4: Vídeo sin audio, comprimido en H.265.
+- El script generará en el directorio actual:
+
+    - NOMBRE_audio.mp3: Solo el audio extraído.
+
+    - NOMBRE_noaudio.mp4: Vídeo sin audio, comprimido en H.265.
 
 📝 Notas
 El nombre de los archivos se genera automáticamente a partir del título del vídeo.
 
-Si yt-dlp no está instalado, el script lo descargará automáticamente (requiere permisos sudo).
-
-Si ffmpeg no está instalado, también se instalará automáticamente (sudo).
+Si yt-dlp o ffmpeg no está instalado, el script lo descargará automáticamente (requiere permisos sudo).
 
 📄 Licencia
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
