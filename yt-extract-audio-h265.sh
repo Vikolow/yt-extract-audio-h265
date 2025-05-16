@@ -5,7 +5,7 @@
 # Script para descargar vídeos de YouTube con `yt-dlp`, extraer audio en MP3
 # y generar una versión sin audio codificada en H.265.
 #
-# Uso: ./youtube-download.sh -u https://www.youtube.com/watch?v=...
+# Uso: ./yt-extract-audio-h265 -u https://www.youtube.com/watch?v=...
 #
 
 # =============================
@@ -73,7 +73,7 @@ echo "[+] Formatos disponibles:"
 yt-dlp -F $URL
 
 # =============================
-# Solicitar formato
+# Solicitar formato al usuario
 # =============================
 read -p "Introduce el código de formato que deseas descargar: " FORMAT
 
